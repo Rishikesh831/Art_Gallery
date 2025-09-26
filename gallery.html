@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTISTRY AI - GALLERY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gallery-styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="home.html">ARTISTRY AI</a>
+        </div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="canvas.html">Canvas</a>
+            <a href="gallery.html" class="active">Gallery</a>
+        </div>
+        <div class="nav-profile">
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </nav>
+
+    <main class="gallery-main">
+        <div class="filter-tabs" role="tablist">
+            <button class="filter-tab active" role="tab" aria-selected="true">All</button>
+            <button class="filter-tab" role="tab" aria-selected="false">Abstract</button>
+            <button class="filter-tab" role="tab" aria-selected="false">Portrait</button>
+            <button class="filter-tab" role="tab" aria-selected="false">Landscape</button>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Gallery Items -->
+            <article class="gallery-item">
+                <img src="https://picsum.photos/400/400" alt="Abstract artwork" loading="lazy">
+                <div class="item-overlay">
+                    <h3>Abstract Dreams</h3>
+                    <p>AI-generated artwork</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="https://picsum.photos/401/400" alt="Portrait artwork" loading="lazy">
+                <div class="item-overlay">
+                    <h3>Digital Portrait</h3>
+                    <p>AI-generated artwork</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="https://picsum.photos/402/400" alt="Landscape artwork" loading="lazy">
+                <div class="item-overlay">
+                    <h3>Mystic Landscape</h3>
+                    <p>AI-generated artwork</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="https://picsum.photos/403/400" alt="Abstract artwork" loading="lazy">
+                <div class="item-overlay">
+                    <h3>Color Symphony</h3>
+                    <p>AI-generated artwork</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="https://picsum.photos/404/400" alt="Portrait artwork" loading="lazy">
+                <div class="item-overlay">
+                    <h3>Digital Expression</h3>
+                    <p>AI-generated artwork</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="https://picsum.photos/405/400" alt="Landscape artwork" loading="lazy">
+                <div class="item-overlay">
+                    <h3>Nature's Code</h3>
+                    <p>AI-generated artwork</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="gallery-actions">
+            <button class="load-more-btn">
+                Load More
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <a href="canvas.html" class="create-art-btn">
+                Create Your Art
+                <i class="fas fa-palette"></i>
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Artistry AI | All Rights Reserved</p>
+        <div class="social-icons">
+            <a href="#" title="Visit our GitHub"><i class="fab fa-github" aria-label="GitHub"></i></a>
+            <a href="#" title="Connect on LinkedIn"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
+            <a href="#" title="Follow us on Instagram"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
