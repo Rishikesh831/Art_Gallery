@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTISTRY AI - CANVAS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="canvas-styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="home.html">ARTISTRY AI</a>
+        </div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="canvas.html" class="active">Canvas</a>
+        </div>
+        <div class="nav-profile">
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </nav>
+
+    <main class="canvas-container">
+        <div class="toolbar">
+            <div class="tool-group">
+                <button class="tool-btn" title="Brush">
+                    <i class="fas fa-paint-brush"></i>
+                </button>
+                <button class="tool-btn" title="Eraser">
+                    <i class="fas fa-eraser"></i>
+                </button>
+            </div>
+
+            <div class="tool-group">
+                <button class="tool-btn" title="Rectangle">
+                    <i class="far fa-square"></i>
+                </button>
+                <button class="tool-btn" title="Circle">
+                    <i class="far fa-circle"></i>
+                </button>
+                <button class="tool-btn" title="Triangle">
+                    <i class="fas fa-play fa-rotate-270"></i>
+                </button>
+            </div>
+
+            <div class="tool-group color-group">
+                <div class="color-swatch" style="background-color: #000000"></div>
+                <div class="color-swatch" style="background-color: #ff0000"></div>
+                <div class="color-swatch" style="background-color: #00ff00"></div>
+                <div class="color-swatch" style="background-color: #0000ff"></div>
+                <div class="color-swatch" style="background-color: #ffff00"></div>
+                <div class="color-swatch" style="background-color: #ff00ff"></div>
+            </div>
+
+            <div class="tool-group">
+                <button class="tool-btn" title="Undo">
+                    <i class="fas fa-undo"></i>
+                </button>
+                <button class="tool-btn" title="Redo">
+                    <i class="fas fa-redo"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="canvas-wrapper">
+            <canvas id="drawing-canvas" class="drawing-canvas"></canvas>
+        </div>
+
+        <div class="bottom-bar">
+            <button class="action-btn">
+                <i class="fas fa-save"></i>
+                Save
+            </button>
+            <button class="action-btn">
+                <i class="fas fa-trash"></i>
+                Clear
+            </button>
+            <button class="action-btn">
+                <i class="fas fa-magic"></i>
+                Apply Filter
+            </button>
+        </div>
+    </main>
+
+    
+</body>
+</html>
